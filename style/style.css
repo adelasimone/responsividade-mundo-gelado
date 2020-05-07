@@ -2,28 +2,19 @@ body {
     margin: 0;
 }
 
-header {
+.banner {
     background-size: cover;
-    /*filter: grayscale();*/
+    filter: grayscale();
     background-image: url(../mundo-gelado/img/foto-banner.jpg);
     height: 550px;
 }
 
-nav {
+.bg-nav {
     background-color: #9ABED3;
-    margin: 0;
 }
 
-p {
-    color: #9C9C9C;
-}
-
-.menu {
-    padding: 30px 20px;    
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
+a:hover {
+    font-weight: bold;
 }
 
 .menu_item {
@@ -39,20 +30,20 @@ p {
     color: #fff;
 }
 
-.image1{
+.images{
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* height: 550rem; */
     filter: grayscale();
-    background-size: cover;
+}
+.image1{
     background: url(../mundo-gelado/img/siberia.jpg);
 }
 
 .image2{
-    filter: grayscale();
-    background-size: cover;
     background: url(../mundo-gelado/img/groenlandia.jpg);
 }
 
 .image3{
-    filter: grayscale();
-    background-size: cover;
     background: url(../mundo-gelado/img/antartida.jpg);
 }
